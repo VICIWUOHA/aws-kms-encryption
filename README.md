@@ -1,4 +1,4 @@
-# AWS KMS Encryption/Decryption Script
+# AWS KMS Encryption/Decryption with Python
 
 ## Overview
 
