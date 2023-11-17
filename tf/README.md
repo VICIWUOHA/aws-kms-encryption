@@ -50,3 +50,8 @@ Terraform Makes the relevant API calls to AWS services on your behalf to create 
 To delete the resources created by terraform, go ahead and run the command below;
 
     terraform destroy
+
+
+## Output of Terraform destroy
+
+![Destroy lOGS](/assets/tf-destroy-logs.png)
