@@ -15,7 +15,14 @@ _You must have both the Terraform CLI & the AWS CLI Installed locally._
 
 2) Study the [deleteKMSLambda.py](/tf/deleteKMSLambda.py) file and compress it into a file named `deletion_lambda.zip` you can run the command below;
 
-    zip deletion_lambda.zip deleteKMSLambda.py
+        zip deletion_lambda.zip deleteKMSLambda.py
+
+
+3) Run your terraform commands. 
+
+- Start with  `terraform init` , `terraform plan`, then `terraform apply`
+At some point it should prompt you for your **kms_key_id** variable which you should provide. (this won't show when you paste it because it is sensitive.)
+ You can also set the default value for this variable in your [variables.tf](/tf/variables.tf) file.
 
 
 Output of Terraform Apply
@@ -31,11 +38,6 @@ Output in Cloudwatch Logs
 
 You should also notice a file named `output.json` in your tf directory if this was succesful.
 
-3) Run your terraform commands. 
-
-- Start with  `terraform init` , `terraform plan`, then `terraform apply`
-At some point it should prompt you for your **kms_key_id** variable which you should provide. (this won't show when you paste it because it is sensitive.)
- You can also set the default value for this variable in your [variables.tf](/tf/variables.tf) file.
 
 
 ## What Happens under the Hood
