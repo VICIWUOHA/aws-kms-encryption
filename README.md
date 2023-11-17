@@ -22,3 +22,7 @@ This script demonstrates how to encrypt and decrypt data using AWS Key Managemen
 ## Sample Output Logs.
 
 ![Output Logs](assets/Sample_Output_Logs.png)
+
+7. If this was just for test purposes **remember to delete** the key(s) created by going to the console and scheduling the delete for the shortest possible period. see below. (Optionally we can do this with cloudformation or terraform.)
+
+![Schedule Key Delete](assets/KEY_Deletion.png)
