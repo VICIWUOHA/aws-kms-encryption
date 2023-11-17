@@ -90,7 +90,7 @@ def decrypt_data(
 if __name__ == "__main__":
     ciphertext = encrypt_data(key_id, plaintext=secret_text)
     print(ciphertext)
-    # TODO:Uncomment the next 2 line3 to decrypt the ciphertext
+    # TODO:Uncomment the next 2 lines to decrypt the ciphertext
 
     # plaintext = decrypt_data(key_id, ciphertext_path="data/encrypted-secret.txt")
     # print(plaintext)
